@@ -1,52 +1,142 @@
 [
   {
-    "name": "T-Mobile \u2013 Spring Mountain Rd",
-    "url": "https://www.t-mobile.com/stores/bd/t-mobile-las-vegas-nv-89146-3a5b",
-    "phone": "Error: 403 Client Error: Forbidden for url: https://www.t-mobile.com/stores/bd/t-mobile-las-vegas-nv-89146-3a5b"
+    "name": "AT&T Store \u2013 Centennial Center",
+    "url": "https://www.att.com/stores/nevada/las-vegas/81557",
+    "phone": "+1 702-645-0129",
+    "updated_at": "2025-08-08T16:22:48Z",
+    "source": "stores.json"
   },
   {
-    "name": "Verizon Store \u2013 Las Vegas Boulevard",
-    "url": "https://www.verizon.com/stores/enterprise/nv/las-vegas/89123/las-vegas-54747/",
-    "phone": "7026373180"
+    "name": "Victra (Verizon Authorized) \u2013 N. Decatur Blvd",
+    "url": "https://victra.com/stores/nv-las-vegas-decatur/",
+    "phone": "(702) 720-1972",
+    "updated_at": "2025-08-08T16:22:48Z",
+    "source": "stores.json"
   },
   {
-    "name": "AT&T Store \u2013 Centennial Center Blvd",
-    "url": "https://www.att.com/stores/nevada/las-vegas/5705-centennial-center-blvd/81557",
-    "phone": "Not found"
+    "name": "T\u2011Mobile Signature Store \u2013 Las Vegas Strip",
+    "url": "https://www.t-mobile.com/stores/pl/t-mobile-las-vegas-nv-89109-4am3/smart-phones",
+    "phone": "(702) 487-4484",
+    "updated_at": "2025-08-08T16:22:48Z",
+    "source": "stores.json"
   },
   {
-    "name": "Boost Mobile \u2013 Bonneville & Nellis",
-    "url": "https://www.boostmobile.com/stores/bd/boost-mobile-las-vegas-nv-89115-7042",
-    "phone": "Error: 404 Client Error: Not Found for url: https://www.boostmobile.com/stores/bd/boost-mobile-las-vegas-nv-89115-7042"
+    "name": "Cricket Wireless \u2013 235 N Eastern Ave",
+    "url": "https://www.cricketwireless.com/stores/nv/las-vegas/235-n-eastern-ave-ste-114",
+    "phone": "(702) 453-9100",
+    "updated_at": "2025-08-08T16:22:48Z",
+    "source": "stores.json"
   },
   {
-    "name": "Metro by T-Mobile \u2013 Eastern & Flamingo",
-    "url": "https://www.metropcs.com/stores/locator?name=Metro%20by%20T-Mobile%20-%20Las%20Vegas&address=89119",
-    "phone": "Error: 403 Client Error: Forbidden for url: https://www.metropcs.com/stores/locator?name=Metro%20by%20T-Mobile%20-%20Las%20Vegas&address=89119"
+    "name": "Metro by T\u2011Mobile \u2013 2162 N Lamb Blvd (Authorized Retailer)",
+    "url": "https://www.metrobyt-mobile.com/stores/bd/metro-by-t-mobile-2162-n-lamb-blvd-las-vegas-nv-89115-10191018/",
+    "phone": "(702) 685-8576",
+    "updated_at": "2025-08-08T16:22:48Z",
+    "source": "stores.json"
   },
   {
-    "name": "Cricket Wireless \u2013 Eastern Ave",
-    "url": "https://www.cricketwireless.com/stores/nv/las-vegas/235-n-eastern-ave-ste-114.html",
-    "phone": "Error: 404 Client Error: Not Found for url: https://www.cricketwireless.com/stores/nv/las-vegas/235-n-eastern-ave-ste-114.html"
+    "name": "Metro by T\u2011Mobile \u2013 3518 E Lake Mead Blvd (Authorized Retailer)",
+    "url": "https://www.metrobyt-mobile.com/stores/bd/metro-by-t-mobile-3518-e-lake-mead-blvd-north-las-vegas-nv-89030-10092808/",
+    "phone": "(702) 462-2990",
+    "updated_at": "2025-08-08T16:22:48Z",
+    "source": "stores.json"
   },
   {
-    "name": "Victra \u2013 Sahara Ave (Verizon Authorized)",
-    "url": "https://www.victra.com/stores/nv/las-vegas/1234-w-sahara-ave",
-    "phone": "Error: 404 Client Error: Not Found for url: https://victra.com/stores/nv/las-vegas/1234-w-sahara-ave"
+    "name": "Metro by T\u2011Mobile \u2013 3216 Civic Center Dr (Authorized Retailer)",
+    "url": "https://www.metrobyt-mobile.com/stores/bd/metro-by-t-mobile-3216-civic-center-dr-north-las-vegas-nv-89030-10190991/",
+    "phone": "(702) 476-9365",
+    "updated_at": "2025-08-08T16:22:48Z",
+    "source": "stores.json"
   },
   {
-    "name": "Wireless Vision \u2013 Tropicana Blvd (T-Mobile Authorized)",
-    "url": "https://www.wirelessvision.com/stores/nv/las-vegas/5678-tropicana-blvd",
-    "phone": "Error: 404 Client Error: Not Found for url: https://wirelessvision.com/stores/nv/las-vegas/5678-tropicana-blvd"
+    "name": "Boost Mobile \u2013 4624 W Sahara Ave",
+    "url": "https://www.mapquest.com/us/nevada/boost-mobile-438108293",
+    "phone": "+1 725-251-2889",
+    "updated_at": "2025-08-08T16:22:48Z",
+    "source": "stores.json"
   },
   {
-    "name": "Galleria Wireless \u2013 Summerlin",
-    "url": "https://www.galleriawireless.com/locations/las-vegas/1303-nellis-blvd-ste-210",
-    "phone": "Error: 404 Client Error: Not Found for url: https://galleriawireless.com/locations/las-vegas/1303-nellis-blvd-ste-210"
+    "name": "Cricket Wireless \u2013 6700 W Charleston Blvd Ste E",
+    "url": "https://www.cricketwireless.com/stores/nv/las-vegas",
+    "phone": "(725) 226-1110",
+    "updated_at": "2025-08-08T16:22:48Z",
+    "source": "stores.json"
   },
   {
-    "name": "Wireless Avenues \u2013 Henderson",
-    "url": "https://www.wirelessavenues.com/stores/45-Henderson-NV/",
-    "phone": "Error: HTTPSConnectionPool(host='www.wirelessavenues.com', port=443): Max retries exceeded with url: /stores/45-Henderson-NV/ (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106168c10>: Failed to resolve 'www.wirelessavenues.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "name": "Cricket Wireless \u2013 1131 E Tropicana Ave #A2",
+    "url": "https://www.cricketwireless.com/stores/nv/las-vegas",
+    "phone": "(702) 701-7701",
+    "updated_at": "2025-08-08T16:22:48Z",
+    "source": "stores.json"
+  },
+  {
+    "name": "AT&T Store \u2013 W Charleston Blvd",
+    "url": "https://www.att.com/stores/nevada/las-vegas/81464",
+    "phone": "Not found",
+    "updated_at": "2025-08-08T16:21:52Z",
+    "source": "scrape"
+  },
+  {
+    "name": "AT&T Store \u2013 S Rainbow Blvd",
+    "url": "https://www.att.com/stores/nevada/las-vegas/84849",
+    "phone": "Not found",
+    "updated_at": "2025-08-08T16:21:54Z",
+    "source": "scrape"
+  },
+  {
+    "name": "Verizon Store \u2013 W Sahara Ave (Corporate)",
+    "url": "https://www.verizon.com/stores/details/nevada/las-vegas/verizon-las-vegas-1842460/",
+    "phone": "+18338374966",
+    "updated_at": "2025-08-08T16:21:57Z",
+    "source": "scrape"
+  },
+  {
+    "name": "Verizon Authorized Retailer \u2013 Victra (N Rancho Dr)",
+    "url": "https://victra.com/stores/nv-las-vegas-rancho/",
+    "phone": "Not found",
+    "updated_at": "2025-08-08T16:22:00Z",
+    "source": "scrape"
+  },
+  {
+    "name": "T\u2011Mobile Store \u2013 S Rainbow Blvd",
+    "url": "https://www.t-mobile.com/stores/bd/t-mobile-las-vegas-nv-89118-3a5b",
+    "phone": "1844222182",
+    "updated_at": "2025-08-08T16:22:02Z",
+    "source": "scrape"
+  },
+  {
+    "name": "T\u2011Mobile Store \u2013 E Sahara Ave",
+    "url": "https://www.t-mobile.com/stores/bd/t-mobile-las-vegas-nv-89104",
+    "phone": "1844222182",
+    "updated_at": "2025-08-08T16:22:02Z",
+    "source": "scrape"
+  },
+  {
+    "name": "Cricket Wireless \u2013 N Decatur Blvd",
+    "url": "https://www.cricketwireless.com/stores/nv/las-vegas",
+    "phone": "+17029981681",
+    "updated_at": "2025-08-08T16:22:03Z",
+    "source": "scrape"
+  },
+  {
+    "name": "Cricket Wireless \u2013 S Eastern Ave",
+    "url": "https://www.cricketwireless.com/stores/nv/las-vegas",
+    "phone": "+17029981681",
+    "updated_at": "2025-08-08T16:22:04Z",
+    "source": "scrape"
+  },
+  {
+    "name": "Metro by T\u2011Mobile \u2013 E Charleston Blvd",
+    "url": "https://www.metrobyt-mobile.com/stores/search?zip=89104",
+    "phone": "Not found",
+    "updated_at": "2025-08-08T16:22:05Z",
+    "source": "scrape"
+  },
+  {
+    "name": "Metro by T\u2011Mobile \u2013 W Tropicana Ave",
+    "url": "https://www.metrobyt-mobile.com/stores/search?zip=89118",
+    "phone": "Not found",
+    "updated_at": "2025-08-08T16:22:05Z",
+    "source": "scrape"
   }
 ]
