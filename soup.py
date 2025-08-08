@@ -12,12 +12,14 @@ def load_stores_from_json(path="stores.json"):
         return json.load(f)
 
 def extract_phone_number(text):
-    phone_pattern = r'\(?\d{3}\)?[\s\-\.]?\d{3}[\s\-\.]?\d{4}'
+    phone_pattern = r'(702[\s\-\.]?\d{3}[\s\-\.]?\d{4}|\(702\)[\s\-\.]?\d{3}[\s\-\.]?\d{4})'
     matches = re.findall(phone_pattern, text)
     return matches[0] if matches else "Not found"
 
 def main():
     stores = load_stores_from_json()
+    results = []
+
     print(f"\nScraping {len(stores)} stores for phone numbers:\n")
 
     for i, store in enumerate(stores, start=1):
@@ -34,7 +36,20 @@ def main():
 
         print(f"    URL: {url}")
         print(f"    Phone: {phone}\n")
+
+        results.append({
+            "name": name,
+            "url": url,
+            "phone": phone
+        })
+
         time.sleep(1)
+
+    # Save to numbers.json
+    with open("numbers.json", "w") as f:
+        json.dump(results, f, indent=2)
+
+    print(f"Saved results to numbers.json")
 
 if __name__ == "__main__":
     main()

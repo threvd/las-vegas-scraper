@@ -1,0 +1,52 @@
+[
+  {
+    "name": "T-Mobile \u2013 Spring Mountain Rd",
+    "url": "https://www.t-mobile.com/stores/bd/t-mobile-las-vegas-nv-89146-3a5b",
+    "phone": "Error: 403 Client Error: Forbidden for url: https://www.t-mobile.com/stores/bd/t-mobile-las-vegas-nv-89146-3a5b"
+  },
+  {
+    "name": "Verizon Store \u2013 Las Vegas Boulevard",
+    "url": "https://www.verizon.com/stores/enterprise/nv/las-vegas/89123/las-vegas-54747/",
+    "phone": "7026373180"
+  },
+  {
+    "name": "AT&T Store \u2013 Centennial Center Blvd",
+    "url": "https://www.att.com/stores/nevada/las-vegas/5705-centennial-center-blvd/81557",
+    "phone": "Not found"
+  },
+  {
+    "name": "Boost Mobile \u2013 Bonneville & Nellis",
+    "url": "https://www.boostmobile.com/stores/bd/boost-mobile-las-vegas-nv-89115-7042",
+    "phone": "Error: 404 Client Error: Not Found for url: https://www.boostmobile.com/stores/bd/boost-mobile-las-vegas-nv-89115-7042"
+  },
+  {
+    "name": "Metro by T-Mobile \u2013 Eastern & Flamingo",
+    "url": "https://www.metropcs.com/stores/locator?name=Metro%20by%20T-Mobile%20-%20Las%20Vegas&address=89119",
+    "phone": "Error: 403 Client Error: Forbidden for url: https://www.metropcs.com/stores/locator?name=Metro%20by%20T-Mobile%20-%20Las%20Vegas&address=89119"
+  },
+  {
+    "name": "Cricket Wireless \u2013 Eastern Ave",
+    "url": "https://www.cricketwireless.com/stores/nv/las-vegas/235-n-eastern-ave-ste-114.html",
+    "phone": "Error: 404 Client Error: Not Found for url: https://www.cricketwireless.com/stores/nv/las-vegas/235-n-eastern-ave-ste-114.html"
+  },
+  {
+    "name": "Victra \u2013 Sahara Ave (Verizon Authorized)",
+    "url": "https://www.victra.com/stores/nv/las-vegas/1234-w-sahara-ave",
+    "phone": "Error: 404 Client Error: Not Found for url: https://victra.com/stores/nv/las-vegas/1234-w-sahara-ave"
+  },
+  {
+    "name": "Wireless Vision \u2013 Tropicana Blvd (T-Mobile Authorized)",
+    "url": "https://www.wirelessvision.com/stores/nv/las-vegas/5678-tropicana-blvd",
+    "phone": "Error: 404 Client Error: Not Found for url: https://wirelessvision.com/stores/nv/las-vegas/5678-tropicana-blvd"
+  },
+  {
+    "name": "Galleria Wireless \u2013 Summerlin",
+    "url": "https://www.galleriawireless.com/locations/las-vegas/1303-nellis-blvd-ste-210",
+    "phone": "Error: 404 Client Error: Not Found for url: https://galleriawireless.com/locations/las-vegas/1303-nellis-blvd-ste-210"
+  },
+  {
+    "name": "Wireless Avenues \u2013 Henderson",
+    "url": "https://www.wirelessavenues.com/stores/45-Henderson-NV/",
+    "phone": "Error: HTTPSConnectionPool(host='www.wirelessavenues.com', port=443): Max retries exceeded with url: /stores/45-Henderson-NV/ (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1054fb340>: Failed to resolve 'www.wirelessavenues.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+  }
+]
