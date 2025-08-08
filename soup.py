@@ -1,47 +1,47 @@
 import requests
 from bs4 import BeautifulSoup
-import re
+import time
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; scraping script)",
-}
+BASE_URL = "https://www.showmelocal.com/search.aspx?q=cell+phone+stores&c=las+vegas&st=nv&page={}"
+HEADERS = {"User-Agent": "Mozilla/5.0"}
 
-def scrape_duckduckgo(query):
-    url = f"https://html.duckduckgo.com/html/?q={query.replace(' ', '+')}"
-    response = requests.get(url, headers=HEADERS)
-    soup = BeautifulSoup(response.text, "html.parser")
+def scrape_store_listings(pages=5):
+    store_data = []
 
-    results = []
+    for page in range(1, pages + 1):
+        print(f"Scraping page {page}...")
+        url = BASE_URL.format(page)
+        res = requests.get(url, headers=HEADERS)
+        soup = BeautifulSoup(res.text, "html.parser")
 
-    for link in soup.find_all("a", class_="result__url"):
-        text = link.get_text()
-        results.append(text)
+        listings = soup.select(".store-result")
 
-    return results
+        for listing in listings:
+            name_tag = listing.select_one(".store-name a")
+            name = name_tag.get_text(strip=True) if name_tag else "N/A"
 
-def extract_phone_numbers(text):
-    phone_pattern = r"\(?\d{3}\)?[\s\-]?\d{3}[\s\-]?\d{4}"
-    return re.findall(phone_pattern, text)
+            addr_tag = listing.select_one(".store-addr")
+            address = addr_tag.get_text(strip=True) if addr_tag else "N/A"
 
-def run():
-    query = "cell phone store Las Vegas phone number"
-    links = scrape_duckduckgo(query)
+            phone_tag = listing.select_one(".store-phone")
+            phone = phone_tag.get_text(strip=True) if phone_tag else "N/A"
 
-    found_numbers = set()
+            store_data.append({
+                "name": name,
+                "address": address,
+                "phone": phone
+            })
 
-    for url in links:
-        try:
-            page = requests.get("http://" + url, headers=HEADERS, timeout=5)
-            phones = extract_phone_numbers(page.text)
-            for p in phones:
-                found_numbers.add(p)
-        except Exception:
-            continue
+        time.sleep(1)  # Be polite and don’t hammer the server
 
-    print(f"\nFound {len(found_numbers)} unique phone numbers:")
-    for num in sorted(found_numbers):
-        print(num)
+    return store_data
+
+def main():
+    results = scrape_store_listings(pages=5)  # ~10 stores per page, so 5 pages ≈ 50 stores
+
+    print(f"\nFound {len(results)} stores:\n")
+    for i, store in enumerate(results, start=1):
+        print(f"{i}. {store['name']} | {store['address']} | {store['phone']}")
 
 if __name__ == "__main__":
-    run()
-
+    main()
