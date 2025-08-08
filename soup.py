@@ -1,14 +1,40 @@
 import json
+import requests
+import re
+import time
+
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (compatible; ScraperBot/1.0)"
+}
 
 def load_stores_from_json(path="stores.json"):
     with open(path, "r") as f:
         return json.load(f)
 
+def extract_phone_number(text):
+    phone_pattern = r'\(?\d{3}\)?[\s\-\.]?\d{3}[\s\-\.]?\d{4}'
+    matches = re.findall(phone_pattern, text)
+    return matches[0] if matches else "Not found"
+
 def main():
     stores = load_stores_from_json()
-    print(f"\nLoaded {len(stores)} store URLs:\n")
+    print(f"\nScraping {len(stores)} stores for phone numbers:\n")
+
     for i, store in enumerate(stores, start=1):
-        print(f"{i}. {store['name']} | {store['url']}")
+        url = store['url']
+        name = store['name']
+        print(f"{i}. {name}")
+
+        try:
+            res = requests.get(url, headers=HEADERS, timeout=10)
+            res.raise_for_status()
+            phone = extract_phone_number(res.text)
+        except Exception as e:
+            phone = f"Error: {e}"
+
+        print(f"    URL: {url}")
+        print(f"    Phone: {phone}\n")
+        time.sleep(1)
 
 if __name__ == "__main__":
     main()
