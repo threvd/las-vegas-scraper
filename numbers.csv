@@ -1,16 +1,16 @@
 name,url,phone,updated_at,source
-AT&T Store – Centennial Center,https://www.att.com/stores/nevada/las-vegas/81557,+1 702-645-0129,2025-08-08T16:22:48Z,stores.json
-Victra (Verizon Authorized) – N. Decatur Blvd,https://victra.com/stores/nv-las-vegas-decatur/,(702) 720-1972,2025-08-08T16:22:48Z,stores.json
-T‑Mobile Signature Store – Las Vegas Strip,https://www.t-mobile.com/stores/pl/t-mobile-las-vegas-nv-89109-4am3/smart-phones,(702) 487-4484,2025-08-08T16:22:48Z,stores.json
-Cricket Wireless – 235 N Eastern Ave,https://www.cricketwireless.com/stores/nv/las-vegas/235-n-eastern-ave-ste-114,(702) 453-9100,2025-08-08T16:22:48Z,stores.json
-Metro by T‑Mobile – 2162 N Lamb Blvd (Authorized Retailer),https://www.metrobyt-mobile.com/stores/bd/metro-by-t-mobile-2162-n-lamb-blvd-las-vegas-nv-89115-10191018/,(702) 685-8576,2025-08-08T16:22:48Z,stores.json
-Metro by T‑Mobile – 3518 E Lake Mead Blvd (Authorized Retailer),https://www.metrobyt-mobile.com/stores/bd/metro-by-t-mobile-3518-e-lake-mead-blvd-north-las-vegas-nv-89030-10092808/,(702) 462-2990,2025-08-08T16:22:48Z,stores.json
-Metro by T‑Mobile – 3216 Civic Center Dr (Authorized Retailer),https://www.metrobyt-mobile.com/stores/bd/metro-by-t-mobile-3216-civic-center-dr-north-las-vegas-nv-89030-10190991/,(702) 476-9365,2025-08-08T16:22:48Z,stores.json
-Boost Mobile – 4624 W Sahara Ave,https://www.mapquest.com/us/nevada/boost-mobile-438108293,+1 725-251-2889,2025-08-08T16:22:48Z,stores.json
-Cricket Wireless – 6700 W Charleston Blvd Ste E,https://www.cricketwireless.com/stores/nv/las-vegas,(725) 226-1110,2025-08-08T16:22:48Z,stores.json
-Cricket Wireless – 1131 E Tropicana Ave #A2,https://www.cricketwireless.com/stores/nv/las-vegas,(702) 701-7701,2025-08-08T16:22:48Z,stores.json
-Verizon Store – W Sahara Ave (Corporate),https://www.verizon.com/stores/details/nevada/las-vegas/verizon-las-vegas-1842460/,+18338374966,2025-08-08T16:21:57Z,scrape
-T‑Mobile Store – S Rainbow Blvd,https://www.t-mobile.com/stores/bd/t-mobile-las-vegas-nv-89118-3a5b,1844222182,2025-08-08T16:22:02Z,scrape
-T‑Mobile Store – E Sahara Ave,https://www.t-mobile.com/stores/bd/t-mobile-las-vegas-nv-89104,1844222182,2025-08-08T16:22:02Z,scrape
-Cricket Wireless – N Decatur Blvd,https://www.cricketwireless.com/stores/nv/las-vegas,+17029981681,2025-08-08T16:22:03Z,scrape
-Cricket Wireless – S Eastern Ave,https://www.cricketwireless.com/stores/nv/las-vegas,+17029981681,2025-08-08T16:22:04Z,scrape
+AT&T Store – Centennial Center,https://www.att.com/stores/nevada/las-vegas/81557,+1 702-645-0129,2025-08-08T19:54:03Z,stores.json
+Victra (Verizon Authorized) – N. Decatur Blvd,https://victra.com/stores/nv-las-vegas-decatur/,(702) 720-1972,2025-08-08T19:54:03Z,stores.json
+T‑Mobile Signature Store – Las Vegas Strip,https://www.t-mobile.com/stores/pl/t-mobile-las-vegas-nv-89109-4am3/smart-phones,(702) 487-4484,2025-08-08T19:54:03Z,stores.json
+Cricket Wireless – 235 N Eastern Ave,https://www.cricketwireless.com/stores/nv/las-vegas/235-n-eastern-ave-ste-114,(702) 453-9100,2025-08-08T19:54:03Z,stores.json
+Metro by T‑Mobile – 2162 N Lamb Blvd (Authorized Retailer),https://www.metrobyt-mobile.com/stores/bd/metro-by-t-mobile-2162-n-lamb-blvd-las-vegas-nv-89115-10191018/,(702) 685-8576,2025-08-08T19:54:03Z,stores.json
+Metro by T‑Mobile – 3518 E Lake Mead Blvd (Authorized Retailer),https://www.metrobyt-mobile.com/stores/bd/metro-by-t-mobile-3518-e-lake-mead-blvd-north-las-vegas-nv-89030-10092808/,(702) 462-2990,2025-08-08T19:54:03Z,stores.json
+Metro by T‑Mobile – 3216 Civic Center Dr (Authorized Retailer),https://www.metrobyt-mobile.com/stores/bd/metro-by-t-mobile-3216-civic-center-dr-north-las-vegas-nv-89030-10190991/,(702) 476-9365,2025-08-08T19:54:03Z,stores.json
+Boost Mobile – 4624 W Sahara Ave,https://www.mapquest.com/us/nevada/boost-mobile-438108293,+1 725-251-2889,2025-08-08T19:54:03Z,stores.json
+Cricket Wireless – 6700 W Charleston Blvd Ste E,https://www.cricketwireless.com/stores/nv/las-vegas,(725) 226-1110,2025-08-08T19:54:03Z,stores.json
+Cricket Wireless – 1131 E Tropicana Ave #A2,https://www.cricketwireless.com/stores/nv/las-vegas,(702) 701-7701,2025-08-08T19:54:03Z,stores.json
+Verizon Store – W Sahara Ave (Corporate),https://www.verizon.com/stores/details/nevada/las-vegas/verizon-las-vegas-1842460/,+18338374966,2025-08-08T19:54:03Z,stores.json
+T‑Mobile Store – S Rainbow Blvd,https://www.t-mobile.com/stores/bd/t-mobile-las-vegas-nv-89118-3a5b,1844222182,2025-08-08T19:54:03Z,stores.json
+T‑Mobile Store – E Sahara Ave,https://www.t-mobile.com/stores/bd/t-mobile-las-vegas-nv-89104,1844222182,2025-08-08T19:54:03Z,stores.json
+Cricket Wireless – N Decatur Blvd,https://www.cricketwireless.com/stores/nv/las-vegas,+17029981681,2025-08-08T19:54:03Z,stores.json
+Cricket Wireless – S Eastern Ave,https://www.cricketwireless.com/stores/nv/las-vegas,+17029981681,2025-08-08T19:54:03Z,stores.json
