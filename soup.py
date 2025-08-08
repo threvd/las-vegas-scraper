@@ -2,11 +2,11 @@ import requests
 from bs4 import BeautifulSoup
 import time
 
-BASE_URL = "https://www.showmelocal.com/search.aspx?q=cell+phone+stores&c=las+vegas&st=nv&page={}"
+BASE_URL = "https://www.chamberofcommerce.com/united-states/nevada/las-vegas/cellular-telephone-service?page={}"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
-def scrape_store_listings(pages=5):
-    store_data = []
+def scrape_chamber(pages=5):
+    stores = []
 
     for page in range(1, pages + 1):
         print(f"Scraping page {page}...")
@@ -14,33 +14,28 @@ def scrape_store_listings(pages=5):
         res = requests.get(url, headers=HEADERS)
         soup = BeautifulSoup(res.text, "html.parser")
 
-        listings = soup.select(".store-result")
+        listings = soup.select(".business-listing")
 
         for listing in listings:
-            name_tag = listing.select_one(".store-name a")
-            name = name_tag.get_text(strip=True) if name_tag else "N/A"
+            name = listing.select_one(".business-listing--title a")
+            phone = listing.select_one(".business-listing--phone")
+            address = listing.select_one(".business-listing--address")
 
-            addr_tag = listing.select_one(".store-addr")
-            address = addr_tag.get_text(strip=True) if addr_tag else "N/A"
-
-            phone_tag = listing.select_one(".store-phone")
-            phone = phone_tag.get_text(strip=True) if phone_tag else "N/A"
-
-            store_data.append({
-                "name": name,
-                "address": address,
-                "phone": phone
+            stores.append({
+                "name": name.get_text(strip=True) if name else "N/A",
+                "address": address.get_text(strip=True) if address else "N/A",
+                "phone": phone.get_text(strip=True) if phone else "N/A"
             })
 
-        time.sleep(1)  # Be polite and don’t hammer the server
+        time.sleep(1)  # Be nice to the server
 
-    return store_data
+    return stores
 
 def main():
-    results = scrape_store_listings(pages=5)  # ~10 stores per page, so 5 pages ≈ 50 stores
+    stores = scrape_chamber(pages=5)
 
-    print(f"\nFound {len(results)} stores:\n")
-    for i, store in enumerate(results, start=1):
+    print(f"\nFound {len(stores)} stores:\n")
+    for i, store in enumerate(stores, start=1):
         print(f"{i}. {store['name']} | {store['address']} | {store['phone']}")
 
 if __name__ == "__main__":
