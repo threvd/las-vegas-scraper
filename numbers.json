@@ -47,6 +47,6 @@
   {
     "name": "Wireless Avenues \u2013 Henderson",
     "url": "https://www.wirelessavenues.com/stores/45-Henderson-NV/",
-    "phone": "Error: HTTPSConnectionPool(host='www.wirelessavenues.com', port=443): Max retries exceeded with url: /stores/45-Henderson-NV/ (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1054fb340>: Failed to resolve 'www.wirelessavenues.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "phone": "Error: HTTPSConnectionPool(host='www.wirelessavenues.com', port=443): Max retries exceeded with url: /stores/45-Henderson-NV/ (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106168c10>: Failed to resolve 'www.wirelessavenues.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
   }
 ]
